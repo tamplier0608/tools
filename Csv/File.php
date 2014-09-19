@@ -3,7 +3,7 @@
 namespace Csv;
 
 /**
- * Tool for simplest work with *.csv files
+ * Tool for simpler work with *.csv files
  *
  * @package Csv
  * @author Serhii Kukunin <kukunin.sergey@gmail.com>
