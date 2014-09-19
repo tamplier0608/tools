@@ -1,6 +1,6 @@
 {
     "name": "tools/Csv/",
-    "description": "Tool for simplest work with *.csv files",
+    "description": "Tool for simpler work with *.csv files",
     "keywords": ["csv"],
     "homepage": "https://github.com/tamplier0608/tools/",
     "type": "library",
