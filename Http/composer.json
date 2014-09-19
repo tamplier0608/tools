@@ -1,13 +1,19 @@
 {
     "name": "tools/Http/Client",
+    "description": "Http client based on cURL",
+    "keywords": ["csv", "http client"],
+    "homepage": "https://github.com/tamplier0608/tools/",
+    "type": "library",
+    "license": "GPLV2",
+    "authors": [
+        {
+            "name": "Serhii Kukunin",
+            "email": "kukunin.sergey@gmail.com"
+        }
+    ],
     "version": "1.0",
     "require": {
         "php": ">=5.3.0",
-        "cURL": ""
-    },
-    "autoload": {
-        "psr-4": {
-            "Http": ""
-        }
+        "cURL": "*"
     }
 }
