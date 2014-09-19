@@ -16,7 +16,9 @@
         "php": ">=5.3.0"
     },
     "autoload": {
-        "Csv": "Csv/",
-        "Http": "Http"
+        "psr-4": {
+            "Csv": "Csv/",
+            "Http": "Http"
+        }
     }
 }
