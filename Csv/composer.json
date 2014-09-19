@@ -1,11 +1,22 @@
 {
-    "name": "tools/Csv/File",
+    "name": "tools/Csv/",
+    "description": "Tool for simplest work with *.csv files",
+    "keywords": ["csv"],
+    "homepage": "https://github.com/tamplier0608/tools/",
+    "type": "library",
+    "license": "GPLV2",
+    "authors": [
+        {
+            "name": "Serhii Kukunin",
+            "email": "kukunin.sergey@gmail.com"
+        }
+    ],
     "version": "1.0",
     "require": {
-        "php": ">=5.3.0"
+        "php": ">=5.2.0"
     },
     "autoload": {
-        "psr-0": {
+        "psr-4": {
             "Csv": ""
         }
     }
