@@ -1,7 +1,22 @@
 {
-  "name":"tools",
-  "version":"1.0",
-  "require":{
-    "php":">=5.3.0"
-  }
+    "name": "tools",
+    "description": "Tools that make life simpler",
+    "keywords": ["csv", "http client"],
+    "homepage": "https://github.com/tamplier0608/tools/",
+    "type": "library",
+    "license": "GPLV2",
+    "authors": [
+        {
+            "name": "Serhii Kukunin",
+            "email": "kukunin.sergey@gmail.com"
+        }
+    ],
+    "version": "1.0",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "Csv": "Csv/",
+        "Http": "Http"
+    }
 }
