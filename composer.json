@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Csv": "Csv/",
+            "Csv": "Csv",
             "Http": "Http"
         }
     }
