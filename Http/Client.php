@@ -19,7 +19,6 @@ class Client
     public function init($options = array())
     {
         $defaultOptions = array(
-            CURLOPT_RETURNTRANSFER => true,
             CURLOPT_HEADER => 1,
             CURLINFO_HEADER_OUT => true,
             CURLOPT_FOLLOWLOCATION => true,
@@ -75,6 +74,7 @@ class Client
     public function doRequest()
     {
         $ch = curl_init();
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true); // @TODO cannot set option with other options in array
         curl_setopt_array($ch, $this->options);
         $result = curl_exec($ch);
         $this->lastRequestInfo = curl_getinfo($ch);
